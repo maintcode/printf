@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# PROJECT BY SUSAN SEWE & MARK MWAI
 ## Resources
 ### Read or watch:
 
