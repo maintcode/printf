@@ -21,6 +21,10 @@ typedef struct BufferedOutput
 } Bop;
 
 void initBop(Bop *output);
+{
+	output->index = 0;
+
+}
 void flushBop(Bop *output);
 void writeCharToBuffer(Bop *output, char c);
 void writeStringToBuffer(Bop *output, const char *str);
