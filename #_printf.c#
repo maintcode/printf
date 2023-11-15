@@ -1,7 +1,0 @@
-printf.c: In function ‘_printf’:
-_printf.c:32:24: error: passing argument 1 of ‘write_char’ makes pointer from integer without a cast [-Werror=int-conversion]
-   32 |    count += write_char(*format);
-      |                        ^~~~~~~
-      |                        |
-      |                        char
-In file included from _printf.c:3:

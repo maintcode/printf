@@ -1,6 +1,4 @@
 #include "main.h"
-#include <unistd.h>
-#include <stdarg.h>
 
 int handle_format(va_list args, char specifier);
 
