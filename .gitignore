@@ -3,3 +3,6 @@ NEW_README.md
 ol_printf.c
 update_printf.c
 test.h
+my-program
+main.o
+_printf.o
