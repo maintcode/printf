@@ -6,3 +6,4 @@ test.h
 my-program
 main.o
 _printf.o
+orig_printf.c
