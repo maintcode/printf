@@ -1,7 +1,5 @@
-#include <limits.h>
-#include <stdio.h>
 #include "main.h"
-
+#include <limits.h>
 /**
  * main - Entry point
  *

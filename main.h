@@ -14,21 +14,20 @@
  * @index: member of the struct
  * Return:(0)
  */
+/**
 typedef struct BufferedOutput
 {
 	char buffer[BUFFER_SIZE];
-	size_t index;  /*current index in the buffer */
-} Bop;
+	size_t index;  current index in the buffer 
+} Bop; */
 
+/**
 void initBop(Bop *output);
-{
-	output->index = 0;
-
-}
 void flushBop(Bop *output);
 void writeCharToBuffer(Bop *output, char c);
 void writeStringToBuffer(Bop *output, const char *str);
 void bufferedPrintf(const char *format, ...);
+*/
 
 int _putchar(char c);
 int _puts(char *str);
@@ -40,5 +39,12 @@ char *rot13(char *str);
 int printrR(const char *format, ...);
 int print_longshort(const char *format, ...);
 int print_binary(const char *format, ...);
+
+int _printf(const char *format, ...);
+int handle_format(va_list args, char specifier);
+int write_char(va_list args);
+int write_str(va_list args);
+int write_int(va_list args);
+int print_number(int num);
 
 #endif

@@ -1,7 +1,5 @@
 #include "main.h"
 
-int handle_format(va_list args, char specifier);
-
 /**
  * _printf - Custom printf function
  * @format: Format string
